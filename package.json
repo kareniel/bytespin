@@ -1,7 +1,7 @@
 {
   "name": "bytespin",
-  "version": "1.0.0",
-  "description": "spinner nanocomponent that cycles through a given list of characters Edit Add topics",
+  "version": "2.0.0",
+  "description": "spinner nanocomponent that cycles through a given list of characters",
   "main": "index.js",
   "scripts": {
     "test": "node test"
