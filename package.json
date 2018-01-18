@@ -1,10 +1,12 @@
 {
   "name": "bytespin",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "spinner nanocomponent that cycles through a given list of characters",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "start:example": "budo example/index.js --live --open --dir example",
+    "build": "bankai build example/index.js dist"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,10 @@
   "dependencies": {
     "bel": "^5.1.5",
     "nanocomponent": "^6.5.0"
+  },
+  "devDependencies": {
+    "bankai": "^9.2.1",
+    "budo": "^10.0.4",
+    "choo": "^6.7.0"
   }
 }

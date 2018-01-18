@@ -22,7 +22,7 @@ Spinner.prototype.createElement = function () {
 
 Spinner.prototype.update = function (loading) {
   this.loading = loading
-  if (loading) this.unload(this.t)
+  if (loading) this.unload()
   return loading
 }
 
@@ -32,7 +32,7 @@ Spinner.prototype.unload = function () {
 
 Spinner.prototype.load = function () {
   this.timer = setInterval(() => {
-    this.i = this.i === this.chars.length ? 0 : this.i + 1
+    this.i = this.i === this.chars.length - 1 ? 0 : this.i + 1
     this.rerender()
   }, this.speed)
 }
