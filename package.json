@@ -1,0 +1,27 @@
+{
+  "name": "bytespin",
+  "version": "1.0.0",
+  "description": "spinner nanocomponent that cycles through a given list of characters Edit Add topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareniel/bytespin.git"
+  },
+  "keywords": [
+    "nanocomponent",
+    "spinner"
+  ],
+  "author": "kareniel",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kareniel/bytespin/issues"
+  },
+  "homepage": "https://github.com/kareniel/bytespin#readme",
+  "dependencies": {
+    "bel": "^5.1.5",
+    "nanocomponent": "^6.5.0"
+  }
+}
