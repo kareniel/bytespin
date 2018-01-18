@@ -23,7 +23,7 @@ creates a new Spinner instance.
 
 ```js
 var Spinner = require('bytespin')
-var spinner = Spinner('\\|/-', 125)
+var spinner = Spinner({ chars: '\\|/-', speed: 125 })
 
 function view (state, emit) {
   return `
