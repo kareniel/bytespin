@@ -43,11 +43,12 @@ function mainView (state, emit) {
       <ul class="pl0 w-100 flex flex-column">
       ${spinners.map(s => {
         return html`
-          <li class="list flex w-100 h3 items-center justify-center" >
-            <span>${s.render(state.fetching)}</span>
+          <li class="list flex flex-column w-100 h3 items-center justify-center" >
+            <p class="">${s.render(state.fetching)}</p>
           </li>`
       })}
       </ul>
+      <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
     </body>`
 
   function add (e) {
