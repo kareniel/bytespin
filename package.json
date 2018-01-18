@@ -1,6 +1,6 @@
 {
   "name": "bytespin",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "spinner nanocomponent that cycles through a given list of characters",
   "main": "index.js",
   "scripts": {

@@ -1,12 +1,13 @@
 var Nanocomponent = require('Nanocomponent')
 var html = require('choo/html')
 
-function Spinner (chars, speed) {
-  if (!(this instanceof Spinner)) return new Spinner(chars)
-  this.chars = chars || '\\|/-'
+function Spinner (opts) {
+  if (!(this instanceof Spinner)) return new Spinner(opts)
+  var opts = opts || {}
+  this.chars = opts.chars || '\\|/-'
+  this.speed = opts.speed || 125
   this.loading = true
   this.i = 0
-  this.speed = speed || 125
   Nanocomponent.call(this)
 }
 
