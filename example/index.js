@@ -52,9 +52,9 @@ function mainView (state, emit) {
     </body>`
 
   function add (e) {
-    var payload = { 
-      chars: charInput.value, 
-      speed: speedInput.value 
+    var payload = {
+      chars: charInput.value,
+      speed: speedInput.value
     }
 
     charInput.value = speedInput.value = ''

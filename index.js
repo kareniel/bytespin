@@ -3,7 +3,7 @@ var html = require('choo/html')
 
 function Spinner (opts) {
   if (!(this instanceof Spinner)) return new Spinner(opts)
-  var opts = opts || {}
+  opts = opts || {}
   this.chars = opts.chars || '\\|/-'
   this.speed = opts.speed || 125
   this.loading = true
@@ -22,8 +22,7 @@ Spinner.prototype.createElement = function () {
 
 Spinner.prototype.update = function (loading) {
   this.loading = loading
-  if (loading) this.unload()
-  return loading
+  return false
 }
 
 Spinner.prototype.unload = function () {
@@ -31,6 +30,7 @@ Spinner.prototype.unload = function () {
 }
 
 Spinner.prototype.load = function () {
+  console.log('load')
   this.timer = setInterval(() => {
     this.i = this.i === this.chars.length - 1 ? 0 : this.i + 1
     this.rerender()
