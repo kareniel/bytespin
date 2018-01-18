@@ -1,4 +1,4 @@
-var Nanocomponent = require('Nanocomponent')
+var Nanocomponent = require('nanocomponent')
 var html = require('choo/html')
 
 function Spinner (opts) {
