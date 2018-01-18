@@ -27,7 +27,7 @@ Spinner.prototype.update = function (loading) {
 }
 
 Spinner.prototype.unload = function () {
-  clearInterval(this.t)
+  clearInterval(this.timer)
 }
 
 Spinner.prototype.load = function () {
