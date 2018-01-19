@@ -30,7 +30,6 @@ Spinner.prototype.unload = function () {
 }
 
 Spinner.prototype.load = function () {
-  console.log('load')
   this.timer = setInterval(() => {
     this.i = this.i === this.chars.length - 1 ? 0 : this.i + 1
     this.rerender()
