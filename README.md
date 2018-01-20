@@ -1,5 +1,5 @@
 # bytespin
-spinner nanocomponent that cycles through a given list of characters ( [**demo*](https://bytespin.netlify.com) )
+spinner nanocomponent that cycles through a given list of characters ( [**demo**](https://bytespin.netlify.com) )
 
 ![](spinners.gif)
 
