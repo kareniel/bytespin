@@ -27,8 +27,8 @@
     "nanocomponent": "^6.5.0"
   },
   "devDependencies": {
-    "bankai": "^9.2.1",
-    "budo": "^10.0.4",
+    "bankai": "^9.15.1",
+    "budo": "^11.6.2",
     "choo": "^6.7.0"
   }
 }
