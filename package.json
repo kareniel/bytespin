@@ -1,6 +1,6 @@
 {
   "name": "bytespin",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "spinner nanocomponent that cycles through a given list of characters",
   "main": "index.js",
   "scripts": {
@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/kareniel/bytespin#readme",
   "dependencies": {
-    "bel": "^5.1.5",
-    "nanocomponent": "^6.5.0"
+    "bel": "^5.1.7",
+    "nanocomponent": "^6.5.2"
   },
   "devDependencies": {
-    "bankai": "^9.15.1",
-    "budo": "^11.6.2",
-    "choo": "^6.7.0"
+    "bankai": "^9.15.2",
+    "budo": "^11.6.3",
+    "choo": "^6.13.3"
   }
 }

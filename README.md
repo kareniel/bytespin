@@ -1,4 +1,8 @@
 # bytespin
+
+[![npm version](https://badge.fury.io/js/bytespin.svg)](https://www.npmjs.com/package/bytespin)
+[![npm](https://img.shields.io/npm/dw/bytespin.svg)](https://www.npmjs.com/package/bytespin)
+
 spinner nanocomponent that cycles through a given list of characters ( [**demo**](https://bytespin.netlify.com) )
 
 ![](spinners.gif)
